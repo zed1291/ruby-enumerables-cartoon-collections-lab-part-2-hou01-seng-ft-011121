@@ -18,10 +18,10 @@ end
 
 def find_valid_calls planeteer_calls
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-   if planeteer_calls&valid_calls == []
+   if planeteer_calls&valid_calls === []
      return nil
-   end
-   if planeteer_calls&valid_calls !== []
-     return planeteer_calls&valid_calls.first
+   else
+     new_array = planeteer_calls&valid_calls
+     new_array[0]
    end
 end
