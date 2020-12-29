@@ -21,7 +21,7 @@ def find_valid_calls planeteer_calls
    if planeteer_calls&valid_calls === []
      return nil
    else
-     planeteer_calls&valid_calls[0]
-    #  new_array[0]
+     new_array = planeteer_calls&valid_calls
+     new_array[0]
    end
 end
